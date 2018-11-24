@@ -7,17 +7,15 @@ import java.util.Random;
 
 public class Losowanie3 {
 
-    private static List<Integer> numbers = new ArrayList<Integer>();
+    private static int[] numbers = new int[6];
 
     public static void main(String[] args) {
 
         Random random = new Random();
 
         for (int i = 0; i < 6; i++) {
-            numbers.add(random.nextInt(49) + 1);
+            numbers[i] = random.nextInt(49) + 1;
         }
-
-        Collections.sort(numbers);
 
         for (int x : numbers) {
             System.out.println(x);
