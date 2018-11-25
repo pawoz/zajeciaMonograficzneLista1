@@ -16,7 +16,6 @@ public class Losowanie5 {
     private static TreeSet<Integer> computerNumbers = new TreeSet<Integer>();
 
     public static void computerDrawn() {
-        Scanner in = new Scanner(System.in);
         Random random = new Random();
         for (int i = 0; computerNumbers.size() < 6; i++) {
             computerNumbers.add(random.nextInt(MAX) + MIN);
