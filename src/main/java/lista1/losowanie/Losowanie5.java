@@ -30,7 +30,7 @@ public class Losowanie5 {
                 System.out.println("podałeś liczbę spoza przedziału");
             }
         }
-        System.out.println("Computer is drawing...");
+        System.out.println("Komputer losuje...");
     }
 
     public static void computerDrawn() {
